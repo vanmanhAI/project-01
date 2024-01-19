@@ -169,6 +169,19 @@ a {
     margin-top: 70px;
 }
 
+.clients .images a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+    border-radius: 12px;
+    padding: 0 42px; 
+    transition: 0.1s linear;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
 /* ======= Guides ======= */
 
 .guides {
@@ -620,10 +633,12 @@ a {
     text-align: center;
     line-height: 28.47px;
     border-radius: 4px;
+    background: #F9F9F9;
+    margin-right: 16px;
 }
 
 .footer .social-link:hover {
-    background: #f9f9f9;
+    background: #ebebeb; 
 }
 
 .footer .row-bottom {
